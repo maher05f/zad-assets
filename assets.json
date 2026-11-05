@@ -1,0 +1,429 @@
+[
+ {
+  "id": "model-light",
+  "type": "model",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/models-v1/ggml-quran-base-q5_0.bin",
+  "size": 55295433,
+  "sha256": "1eb6255686651cb496e7ef52bc15c4f4f3fe197af6eea40eeb60e9f212a96950",
+  "minRamGb": 3,
+  "license": [
+   {
+    "file": "LICENSE-whisper-quran.txt",
+    "url": "https://github.com/maher05f/zad-assets/releases/download/models-v1/LICENSE-whisper-quran.txt",
+    "size": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+   },
+   {
+    "file": "NOTICE-whisper-quran.txt",
+    "url": "https://github.com/maher05f/zad-assets/releases/download/models-v1/NOTICE-whisper-quran.txt",
+    "size": 771,
+    "sha256": "08b2bc59b6f092703f1198e8893dd06309ed602736ec473e24e322f3c2dd3af8"
+   }
+  ]
+ },
+ {
+  "id": "model-strong",
+  "type": "model",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/models-v1/muaalem-int8.onnx",
+  "size": 668110380,
+  "sha256": "af96df30131f305f0bebc1f276f018a35ab790e7c62ddef80baa22f2866898bf",
+  "minRamGb": 6,
+  "extra": [
+   {
+    "file": "muaalem-levels.json",
+    "url": "https://github.com/maher05f/zad-assets/releases/download/models-v1/muaalem-levels.json",
+    "size": 3991,
+    "sha256": "1ce6a92b53dfa756a78fe2c51a571bf31129a83a6637167831408b4a4177ade6"
+   },
+   {
+    "file": "phonetic_ref.json",
+    "url": "https://github.com/maher05f/zad-assets/releases/download/models-v1/phonetic_ref.json",
+    "size": 7938333,
+    "sha256": "f6d8d8760e3c4193db35c6fb3e55cfb74b4d6b7d3fceb9ec5e99b30494c06353"
+   }
+  ],
+  "license": [
+   {
+    "file": "LICENSE-muaalem-QML-1.0.txt",
+    "url": "https://github.com/maher05f/zad-assets/releases/download/models-v1/LICENSE-muaalem-QML-1.0.txt",
+    "size": 25679,
+    "sha256": "0d0d60d058d4fc196275651690ee2541f9e4dea171fe1b7d7b2d8beec09c4ec3"
+   },
+   {
+    "file": "NOTICE-muaalem.txt",
+    "url": "https://github.com/maher05f/zad-assets/releases/download/models-v1/NOTICE-muaalem.txt",
+    "size": 2729,
+    "sha256": "edfa088767ec7536f17736e8ee81a2df922cf29c26464117d033c19c5696bab5"
+   },
+   {
+    "file": "LICENSE-phonetic-ref.txt",
+    "url": "https://github.com/maher05f/zad-assets/releases/download/models-v1/LICENSE-phonetic-ref.txt",
+    "size": 2406,
+    "sha256": "2991d19b574fd24f24fd069e02da7fa1f65d75cc55d5b88c7d7e0fbd9832dd8e"
+   }
+  ]
+ },
+ {
+  "id": "model-full",
+  "type": "model",
+  "version": 1,
+  "minRamGb": 12,
+  "file": "muaalem-fp32.onnx.data",
+  "size": 2423921664,
+  "sha256": "b4189e9d019c30e85cd21957ec965e3c1e3b90c8ea3561e60221b8df185a54d2",
+  "parts": [
+   {
+    "url": "https://github.com/maher05f/zad-assets/releases/download/models-v1/muaalem-fp32.onnx.data.part1",
+    "size": 1211960832,
+    "sha256": "66f3eb9ac1f7a33963f633f68b8d286812dd09af79ebb83ef148b1c1afa5618d"
+   },
+   {
+    "url": "https://github.com/maher05f/zad-assets/releases/download/models-v1/muaalem-fp32.onnx.data.part2",
+    "size": 1211960832,
+    "sha256": "c84247ffd4e7937551aab0a184cc64d2e204f367b96c5b1554d55f0ba2bbba05"
+   }
+  ],
+  "extra": [
+   {
+    "file": "muaalem-fp32.onnx",
+    "url": "https://github.com/maher05f/zad-assets/releases/download/models-v1/muaalem-fp32.onnx",
+    "size": 1125097,
+    "sha256": "04f86c8356b556020b1f383624869dae7565d710a01857d67245de752be91424"
+   },
+   {
+    "file": "muaalem-levels.json",
+    "url": "https://github.com/maher05f/zad-assets/releases/download/models-v1/muaalem-levels.json",
+    "size": 3991,
+    "sha256": "1ce6a92b53dfa756a78fe2c51a571bf31129a83a6637167831408b4a4177ade6"
+   },
+   {
+    "file": "phonetic_ref.json",
+    "url": "https://github.com/maher05f/zad-assets/releases/download/models-v1/phonetic_ref.json",
+    "size": 7938333,
+    "sha256": "f6d8d8760e3c4193db35c6fb3e55cfb74b4d6b7d3fceb9ec5e99b30494c06353"
+   }
+  ],
+  "license": [
+   {
+    "file": "LICENSE-muaalem-QML-1.0.txt",
+    "url": "https://github.com/maher05f/zad-assets/releases/download/models-v1/LICENSE-muaalem-QML-1.0.txt",
+    "size": 25679,
+    "sha256": "0d0d60d058d4fc196275651690ee2541f9e4dea171fe1b7d7b2d8beec09c4ec3"
+   },
+   {
+    "file": "NOTICE-muaalem.txt",
+    "url": "https://github.com/maher05f/zad-assets/releases/download/models-v1/NOTICE-muaalem.txt",
+    "size": 2729,
+    "sha256": "edfa088767ec7536f17736e8ee81a2df922cf29c26464117d033c19c5696bab5"
+   },
+   {
+    "file": "LICENSE-phonetic-ref.txt",
+    "url": "https://github.com/maher05f/zad-assets/releases/download/models-v1/LICENSE-phonetic-ref.txt",
+    "size": 2406,
+    "sha256": "2991d19b574fd24f24fd069e02da7fa1f65d75cc55d5b88c7d7e0fbd9832dd8e"
+   }
+  ]
+ },
+ {
+  "id": "corpus-morphology",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/corpus-morphology.zip",
+  "size": 1182573,
+  "sha256": "af7cf10d014e48055e9a2685c7a45141da6878cec60ce76e30d5f28ac1d2a3eb"
+ },
+ {
+  "id": "font-uthmanic-hafs",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/font-uthmanic-hafs.zip",
+  "size": 450022,
+  "sha256": "2a66143b9a1cf6b24a2c2347a53b8b2123250b4269aa981282189ca6d99d8ca2"
+ },
+ {
+  "id": "mushaf-qpc2-base",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-base.zip",
+  "size": 1872170,
+  "sha256": "ecd85d8cd86a95aeda2cc4b8c04bf4b7ed792930be80a33bde21f19884308d04"
+ },
+ {
+  "id": "mushaf-qpc2-juz01",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz01.zip",
+  "size": 5139462,
+  "sha256": "b3f7da8ae5752a51434689817c616d24b3a8b4b19d831fa872ca30ac0c1a8ac5"
+ },
+ {
+  "id": "mushaf-qpc2-juz02",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz02.zip",
+  "size": 4462116,
+  "sha256": "931e3f25fa1b989dbfa3c387110c3fa3ee0c73343b432e00adcf9b5c78614789"
+ },
+ {
+  "id": "mushaf-qpc2-juz03",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz03.zip",
+  "size": 4465278,
+  "sha256": "2073c38db73e8965e3d77d823e5a8d8e2d1da64e3d1b85defe7d0cccd942d0c4"
+ },
+ {
+  "id": "mushaf-qpc2-juz04",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz04.zip",
+  "size": 4338049,
+  "sha256": "cacb269ff8a765cc0390fa28e5292207ddc1e910cf32b5b55f7c9f5c5dc3842e"
+ },
+ {
+  "id": "mushaf-qpc2-juz05",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz05.zip",
+  "size": 4579047,
+  "sha256": "d0378eb214104a010ceb6c4d361cdcd70fa9a8efc5f677f034d2b4a025f8c965"
+ },
+ {
+  "id": "mushaf-qpc2-juz06",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz06.zip",
+  "size": 4460058,
+  "sha256": "0310814e39065b0f228019431e49fc03a83136e330c603a8cd7355ea0fda428d"
+ },
+ {
+  "id": "mushaf-qpc2-juz07",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz07.zip",
+  "size": 4668643,
+  "sha256": "cd4c0c72984d6afd227fe09d04250508f2475e4f3966dfc86bc62741a452c02f"
+ },
+ {
+  "id": "mushaf-qpc2-juz08",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz08.zip",
+  "size": 4494584,
+  "sha256": "405b230c7a183dcda96b214e096fa3efd57e609b6b0e8d68febdfe1902b03c91"
+ },
+ {
+  "id": "mushaf-qpc2-juz09",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz09.zip",
+  "size": 4514294,
+  "sha256": "ab3d7b5554ae012afda0801fb359b915723f7e61c89317e5945ae5cd65f74d44"
+ },
+ {
+  "id": "mushaf-qpc2-juz10",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz10.zip",
+  "size": 4173513,
+  "sha256": "7c111986c2a3c260707a5eb0726757cea50ac2ad12819f44231704a05fc1bbb5"
+ },
+ {
+  "id": "mushaf-qpc2-juz11",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz11.zip",
+  "size": 4685950,
+  "sha256": "7ae6641587d39c84d65171e64dbb803673d3d07da4db3607a28b127d41359142"
+ },
+ {
+  "id": "mushaf-qpc2-juz12",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz12.zip",
+  "size": 4462641,
+  "sha256": "f2a4c844a5eeb2289cae1322ee3b79708fc335cca561293d513404e4fde01e6d"
+ },
+ {
+  "id": "mushaf-qpc2-juz13",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz13.zip",
+  "size": 4570787,
+  "sha256": "05d7faefa5268046cc9e1668c4d444aa2e94f656914c0ef0e272beb3b6951ed2"
+ },
+ {
+  "id": "mushaf-qpc2-juz14",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz14.zip",
+  "size": 4442958,
+  "sha256": "807879bbe1f0e028d50b7b57d89334a11bc35330afd46bc09b406ec3e0e8a2d2"
+ },
+ {
+  "id": "mushaf-qpc2-juz15",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz15.zip",
+  "size": 4556589,
+  "sha256": "68a04fe1b16624c87e67f51213a4047db24be2762927c2f888de9663b8231985"
+ },
+ {
+  "id": "mushaf-qpc2-juz16",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz16.zip",
+  "size": 4601884,
+  "sha256": "f8c43e2c78997c760c6a432ac3d5b9e6bf8f799d573c3b39f38a21668bc531b0"
+ },
+ {
+  "id": "mushaf-qpc2-juz17",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz17.zip",
+  "size": 4364305,
+  "sha256": "11070162b012332a414440f605c63f41e6862530053f9c12f09d8b59feca8c3d"
+ },
+ {
+  "id": "mushaf-qpc2-juz18",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz18.zip",
+  "size": 4639009,
+  "sha256": "9a76a9432eda13f0c5ade1f2c76887e49af264e89de1468a75fd63de4436e377"
+ },
+ {
+  "id": "mushaf-qpc2-juz19",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz19.zip",
+  "size": 4718819,
+  "sha256": "c3c9c729b9ca8f2d041791823d2a534918158e7c0d5b75434ac0c9bdee17ca1f"
+ },
+ {
+  "id": "mushaf-qpc2-juz20",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz20.zip",
+  "size": 4416017,
+  "sha256": "0f242712a16af57322638731b6eda1bfb77074b399b3663cf628b85921034088"
+ },
+ {
+  "id": "mushaf-qpc2-juz21",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz21.zip",
+  "size": 4445147,
+  "sha256": "65955ff5ac516a157e0f1bd81713e7a5bf2cbd2a8066406247d5b8b56e235364"
+ },
+ {
+  "id": "mushaf-qpc2-juz22",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz22.zip",
+  "size": 4490827,
+  "sha256": "ca604ac635af37cc5cef82e2b355fa8fd0836eca7aaf03768359f9c623f46e12"
+ },
+ {
+  "id": "mushaf-qpc2-juz23",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz23.zip",
+  "size": 4729560,
+  "sha256": "a7ccb69cf3816faed211a0f08716a9b4e169051b2371b4b959fecd17cff105f6"
+ },
+ {
+  "id": "mushaf-qpc2-juz24",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz24.zip",
+  "size": 4438202,
+  "sha256": "4aad1a58eab5c21df16931f7f063dbb705a977416380f4c3ec2d933c0cf2bff1"
+ },
+ {
+  "id": "mushaf-qpc2-juz25",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz25.zip",
+  "size": 4569444,
+  "sha256": "31f376308da55c463e39b0c4db2f61a4d4ac3573283e78c8aa04f6742d90c6df"
+ },
+ {
+  "id": "mushaf-qpc2-juz26",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz26.zip",
+  "size": 4606448,
+  "sha256": "1bb750e108bd3dbaa03a0a375342b1d6ef08cc6975b8f31236c5e03da8278429"
+ },
+ {
+  "id": "mushaf-qpc2-juz27",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz27.zip",
+  "size": 4643236,
+  "sha256": "00a4f76d946452bc4fcb5bacbeb24d1b2ce15e9993e6e089b95b342c0da1f59e"
+ },
+ {
+  "id": "mushaf-qpc2-juz28",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz28.zip",
+  "size": 4517691,
+  "sha256": "e0842c7255e1202c4bab959449c26e31c1a1815179ea313d0398513a014fc489"
+ },
+ {
+  "id": "mushaf-qpc2-juz29",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz29.zip",
+  "size": 4697114,
+  "sha256": "058e668a6f3a07611779e08ea6eb5ffd939a1ab44c8392ce525cdb55526f9c16"
+ },
+ {
+  "id": "mushaf-qpc2-juz30",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-juz30.zip",
+  "size": 4387095,
+  "sha256": "15939153e7d660c2f88db39a8a29929c87789f68156e989c7f29b8b8ee6ecb11"
+ },
+ {
+  "id": "quranpedia-asbab",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/quranpedia-asbab.zip",
+  "size": 720740,
+  "sha256": "924c818e207207fd31d8390ee353eb4f54a0b172073744ff7dc943c286b040e8",
+  "sourceVersion": "2026-11-03"
+ },
+ {
+  "id": "quranpedia-core",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/quranpedia-core.zip",
+  "size": 12973227,
+  "sha256": "84d73059fb4ea37429555b6e731d6d549341421fc5ceaca039777f1aa6aed909",
+  "sourceVersion": "2026-11-03"
+ },
+ {
+  "id": "quranpedia-e3rab",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/quranpedia-e3rab.zip",
+  "size": 7086512,
+  "sha256": "229620afd29bcd25fd500119951eb0154f7f04d942c942bb71fdd00512c72fc7",
+  "sourceVersion": "2026-11-03"
+ },
+ {
+  "id": "quranpedia-qiraat",
+  "type": "data",
+  "version": 1,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/quranpedia-qiraat.zip",
+  "size": 6040182,
+  "sha256": "04ff4de0a75538630b7f7233039a2f8ab2ae1ba9c9457f26e071bc4a4284e221",
+  "sourceVersion": "2026-11-03"
+ }
+]

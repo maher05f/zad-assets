@@ -1,0 +1,25 @@
+# الملفات الكبيرة تُرفع في Releases فقط، لا في المستودع
+*.bin
+*.onnx
+*.onnx.data
+*.part[0-9]*
+*.zip
+*.npy
+*.wav
+*.mp3
+*.safetensors
+*.pt
+*.ttf
+
+# مجلدات العمل
+out/
+tmp/
+src/
+_release/
+.venv/
+__pycache__/
+muaalem-test/
+
+# التصاميم محلية فقط ولا تُرفع أبداً
+Zad-Designs/
+_base/

@@ -1,0 +1,40 @@
+هذا المعلّم القرآني نموذج ذكاء اصطناعي قد يخطئ؛ فهو للإعانة فقط ولا يُعتمد عليه، وليس بديلاً عن معلّمٍ مُتقِنٍ مُجاز؛ لأنّ القرآن لا يُؤخذ إلا بالمشافهة.
+
+This Quranic Teacher is an artificial-intelligence model that may make mistakes.
+It is intended for assistance only and must not be relied upon. It is not a
+replacement for a proficient, authorized teacher, because the Quran is only
+received through oral transmission (mushafahah).
+
+====================================================================
+
+muaalem-int8.onnx, muaalem-fp32.onnx (+ muaalem-fp32.onnx.data), muaalem-levels.json
+======================================================================================
+This notice and the QML 1.0 license cover every version of the Quranic Teacher distributed here
+(model-strong: int8, model-full: fp32).
+
+Quran Muaalem — المعلّم القرآني
+Copyright (c) 2025 obadx and contributors
+Model: obadx/muaalem-model-v3_2 — https://huggingface.co/obadx/muaalem-model-v3_2
+       (revision 01a1ef9fbe40d144ef845101e89ff924aed3fef5)
+Project: https://github.com/obadx/quran-muaalem (commit b310432c5b6ba272981a67d4cb61438e96349ce7)
+
+Licensed under the Quran Muaalem License (QML), Version 1.0 — see LICENSE-muaalem-QML-1.0.txt,
+copied verbatim from the project repository (git blob 3b0b13377d446ade4ae229a7cb24022e9d6bf5ea).
+
+Changes made for Zad (a Derivative Work under the QML):
+- Exported from PyTorch to ONNX (opset 17, dynamic time axis), float32.
+- The SeamlessM4T/w2v-BERT feature extraction (Kaldi-style 80-bin log-mel fbank,
+  per-mel normalization, stride-2 stacking to 160) was re-implemented in PyTorch and
+  embedded in the graph, so the model takes raw 16 kHz audio.
+- Kernel-size-1 (pointwise) Conv1d layers rewritten as the equivalent matrix multiplication.
+- muaalem-fp32.onnx: full float32, no quantization; weights in muaalem-fp32.onnx.data
+  (published in parts because of the 2 GB file limit; concatenate the parts in order).
+- muaalem-int8.onnx: weight-only 8-bit quantization of the MatMul weights (onnxruntime
+  MatMulNBits, symmetric, block size 128); computation stays in float32.
+- muaalem-levels.json lists the output levels and their vocabularies, from the model's tokenizer.
+No retraining.
+
+Obligations for anyone building an interface on these files (QML §2): show the notice above
+before first use and keep it reachable from the main menu or an About/Help screen, in Arabic and
+in every language of the interface; no advertisements; and, if any fee is charged, a free path for
+those who cannot pay. Every distribution must include the full QML text.
