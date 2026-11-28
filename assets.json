@@ -145,10 +145,10 @@
  {
   "id": "mushaf-qpc2-base",
   "type": "data",
-  "version": 1,
-  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-base.zip",
-  "size": 1872170,
-  "sha256": "ecd85d8cd86a95aeda2cc4b8c04bf4b7ed792930be80a33bde21f19884308d04"
+  "version": 2,
+  "url": "https://github.com/maher05f/zad-assets/releases/download/data-v1/mushaf-qpc2-base-2.zip",
+  "size": 1872189,
+  "sha256": "148c01dc8ab7756764156ef05834a06f7a74cbd22b0362ae02af42184eb2183b"
  },
  {
   "id": "mushaf-qpc2-juz01",
